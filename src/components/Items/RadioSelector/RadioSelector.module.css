@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 43px;
+}
+
+.text {
+    color: #0d5adc;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+}
+
+.radio {
+    display: block;
+    position: relative;
+    width: 15px;
+}
+
+.radio label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 6px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.radio input[type='radio'] {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 42px;
+    height: 1px;
+    width: 10px;
+}
+
+.radio input[type='radio']:checked + label::before {
+    content: '';
+    background-color: #0d5adc;
+}
+

@@ -1,0 +1,74 @@
+.header {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 6.313rem;
+	width: auto;
+}
+
+.nav {
+	display: flex;
+	gap: 50.3rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.catalog {
+	color: #0d5adc;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.9px;
+	cursor: pointer;
+}
+
+.link {
+	all: unset;
+	cursor: pointer;
+}
+
+.link:hover {
+	opacity: 0.7;
+}
+
+svg:hover {
+	opacity: 0.7;
+}
+
+.catalog:hover {
+	opacity: 0.7;
+}
+
+.personalAccount {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	gap: 3.8rem;
+	right: 17px;
+}
+
+.userIcon {
+	cursor: pointer;
+	position: absolute;
+	right: -24px;
+}
+
+.text {
+	color: #3b4157;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+
+hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	border: 0;
+	background-color: #CDCFD2;
+}
+
